@@ -37,3 +37,18 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+/* Custom size for social icons */
+.social {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  
+  i {
+    font-size: 1.1rem !important; /* Adjust this number to make them smaller/larger */
+    color: var(--global-text-color);
+  }
+  
+  a:hover i {
+    color: var(--global-theme-color) !important;
+  }
+}
