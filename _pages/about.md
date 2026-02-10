@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Subham Nayak
+title: About
 permalink: /
 subtitle: <a href='#'>PhD in Mathematics</a>. IISER Thiruvananthapuram.
 
