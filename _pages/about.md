@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>School of MAthematics</p>
+    <p>School of Mathematics</p>
     <p>IISER Thiruvananthapuram</p>
     <p>Kerala 695551, India</p>
 
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. Candidate in Mathematics at **IISER Thiruvananthapuram**, specializing in Numerical Analysis. My research, under the supervision of **Dr. Asha Kisan Dond**, focuses on the Convergence of Adaptive Finite Element Methods for a class of Optimal Control Problems governed by Biharmonic Equations.
+I am a Ph.D. student in the School of Mathematics at **IISER Thiruvananthapuram**, specializing in Numerical Analysis. My research, under the supervision of **Dr. Asha Kisan Dond**, focuses on the Convergence of Adaptive Finite Element Methods for a class of Optimal Control Problems governed by Biharmonic Equations.
 
 #### Research Interests
 * **Finite Element Methods (FEM):** Mixed FEM and Stabilized methods.
