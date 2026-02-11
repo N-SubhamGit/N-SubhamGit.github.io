@@ -1,6 +1,6 @@
 ---
 layout: page
-title: teaching
+title: Teaching
 permalink: /teaching/
 description: Courses assisted as a teaching assistant at IISER Thiruvananthapuram.
 nav: true
