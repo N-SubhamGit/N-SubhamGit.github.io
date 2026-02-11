@@ -1,4 +1,4 @@
-{% if page.title == "about" %}
+{% if page.permalink == "/" or page.url == "/" %}
 {% if site.footer_fixed %}
 <footer class="fixed-bottom" role="contentinfo">
 {% else %}
@@ -17,6 +17,10 @@ Hosted by <a href="" target="_blank" class="text-muted">GitHub Pages</a>.
 </div>
 </footer>
 {% endif %}
+
+{% comment %}
+(Your original code stays here safely commented out)
+{% endcomment %}
 
 {% comment %}
 {% capture footer_contents %}
