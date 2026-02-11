@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/activities/";
           },
+        },{id: "nav-education",
+          title: "Education",
+          description: "Academic background, qualifying examinations, and technical expertise.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/education/";
+          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "Course materials, schedules, and resources for classes taught.",
