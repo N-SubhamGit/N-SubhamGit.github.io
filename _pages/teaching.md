@@ -1,15 +1,54 @@
 ---
 layout: page
+title: Teaching
 permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Courses assisted as a teaching assistant at IISER Thiruvananthapuram.
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 5
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+<div class="news">
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+  <h3 class="mt-4" style="color: var(--global-theme-color);">IISER Thiruvananthapuram</h3>
+  <p class="text-muted">Graduate Teaching Assistant for Undergraduate Courses</p>
 
-{% include courses.liquid %}
+  <table class="table table-sm table-borderless">
+    <tr>
+      <th scope="row" style="width: 25%" class="text-muted font-weight-light">Aug – Dec 2025</th>
+      <td>Machine Learning</td>
+    </tr>
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">Jan – May 2025</th>
+      <td>General Topology</td>
+    </tr>
+
+    <tr class="pt-3">
+      <th scope="row" class="text-muted font-weight-light">Jan – May 2024</th>
+      <td>IDC: Ordinary Differential Equations</td>
+    </tr>
+
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">Aug – Dec 2023</th>
+      <td>Multivariable Calculus</td>
+    </tr>
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">Apr – Aug 2023</th>
+      <td>IDC: Ordinary Differential Equations</td>
+    </tr>
+
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">Aug – Dec 2022</th>
+      <td>Multivariable Calculus</td>
+    </tr>
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">May – Aug 2022</th>
+      <td>IDC: Ordinary Differential Equations</td>
+    </tr>
+
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">Jan – May 2020</th>
+      <td>Introduction to Probability</td>
+    </tr>
+  </table>
+
+</div>
