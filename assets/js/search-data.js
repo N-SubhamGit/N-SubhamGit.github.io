@@ -23,19 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-education",
-          title: "Education",
-          description: "Academic background, qualifying examinations, and technical expertise.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/education/";
-          },
         },{id: "nav-activities",
           title: "Activities",
           description: "Conferences, workshops, and research engagements.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/activities/";
+          },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "Teaching Assistantship at IISER Thiruvananthapuram.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
           },
         },{id: "nav-teaching",
           title: "Teaching",
