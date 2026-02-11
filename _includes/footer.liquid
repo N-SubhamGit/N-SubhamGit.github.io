@@ -1,13 +1,14 @@
+{% if page.title == "about" %}
 {% if site.footer_fixed %}
-
 <footer class="fixed-bottom" role="contentinfo">
 {% else %}
 <footer class="sticky-bottom mt-5" role="contentinfo">
 {% endif %}
 <div class="container">
-<hr style="opacity: 0.2;"> <div class="row">
+<hr style="opacity: 0.2;">
+<div class="row">
 <div class="col-sm-12 text-right text-muted small" style="opacity: 0.6;">
-&copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.last_name }}.
+© Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.last_name }}.
 Powered by <a href="" target="_blank" class="text-muted">Jekyll</a> with
 <a href="" class="text-muted">al-folio</a> theme.
 Hosted by <a href="" target="_blank" class="text-muted">GitHub Pages</a>.
@@ -15,6 +16,7 @@ Hosted by <a href="" target="_blank" class="text-muted">GitHub Pages</a>.
 </div>
 </div>
 </footer>
+{% endif %}
 
 {% comment %}
 {% capture footer_contents %}
