@@ -1,67 +1,54 @@
 ---
 layout: page
-title: Teaching
+title: teaching
 permalink: /teaching/
-description: Teaching Assistantship at IISER Thiruvananthapuram.
+description: Courses assisted as a teaching assistant at IISER Thiruvananthapuram.
 nav: true
 nav_order: 5
 ---
 
-<div class="post">
+<div class="news">
 
-  <header class="post-header">
-    <h3 class="post-title" style="color: var(--global-theme-color);">IISER Thiruvananthapuram</h3>
-    <p class="desc">Graduate Teaching Assistant for Undergraduate Courses</p>
-  </header>
+  <h3 class="mt-4" style="color: var(--global-theme-color);">Teaching Experience</h3>
+  <p class="text-muted">Graduate Teaching Assistant for Undergraduate Courses, IISER Thiruvananthapuram</p>
 
-  <article>
-    <div class="cv">
-      <div class="card mt-3 p-3 border-0">
-        <div class="list-group list-group-flush">
-          
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">General Topology</h6>
-            <p class="small text-muted mb-0">Jan – May 2025</p>
-          </div>
+  <table class="table table-sm table-borderless">
+    <tr>
+      <th scope="row" style="width: 25%" class="text-muted font-weight-light">Jan – May 2025</th>
+      <td>General Topology</td>
+    </tr>
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">Aug – Dec 2025</th>
+      <td>Machine Learning</td>
+    </tr>
 
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">Machine Learning</h6>
-            <p class="small text-muted mb-0">Aug – Dec 2025</p>
-          </div>
+    <tr class="pt-2">
+      <th scope="row" class="text-muted font-weight-light">Jan – May 2024</th>
+      <td>IDC: Ordinary Differential Equations</td>
+    </tr>
 
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">IDC: Ordinary Differential Equations</h6>
-            <p class="small text-muted mb-0">Jan – May 2024</p>
-          </div>
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">Aug – Dec 2023</th>
+      <td>Multivariable Calculus</td>
+    </tr>
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">Apr – Aug 2023</th>
+      <td>IDC: Ordinary Differential Equations</td>
+    </tr>
 
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">Multivariable Calculus</h6>
-            <p class="small text-muted mb-0">Aug – Dec 2023</p>
-          </div>
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">Aug – Dec 2022</th>
+      <td>Multivariable Calculus</td>
+    </tr>
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">May – Aug 2022</th>
+      <td>IDC: Ordinary Differential Equations</td>
+    </tr>
 
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">IDC: Ordinary Differential Equations</h6>
-            <p class="small text-muted mb-0">Apr – Aug 2023</p>
-          </div>
-
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">Multivariable Calculus</h6>
-            <p class="small text-muted mb-0">Aug – Dec 2022</p>
-          </div>
-
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">IDC: Ordinary Differential Equations</h6>
-            <p class="small text-muted mb-0">May – Aug 2022</p>
-          </div>
-
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">Introduction to Probability</h6>
-            <p class="small text-muted mb-0">Jan – May 2020</p>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </article>
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">Jan – May 2020</th>
+      <td>Introduction to Probability</td>
+    </tr>
+  </table>
 
 </div>
