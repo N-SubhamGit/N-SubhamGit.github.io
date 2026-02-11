@@ -53,7 +53,7 @@ nav_order: 3
     </tr>
     <tr>
       <th scope="row" class="text-muted font-weight-light">2015</th>
-      <td><strong>Senior Mathematics Olympiad, Odisha</strong> — Rank: <strong>4</strong></td>
+      <td><strong>Senior Mathematics Olympiad, Odisha</strong> — Rank: <strong>04</strong></td>
     </tr>
   </table>
 
