@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-activities",
           title: "Activities",
-          description: "Selected conferences, workshops, and research engagements.",
+          description: "Conferences, workshops, and research engagements.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/activities/";
