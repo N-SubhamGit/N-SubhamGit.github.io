@@ -18,7 +18,7 @@ nav_order: 3
         Indian Institute of Science Education and Research (IISER) Thiruvananthapuram <br>
         <span class="small"><strong>Thesis:</strong> Convergence of Adaptive FEM for Optimal Control Problems Governed by Biharmonic Equations</span> <br>
         <span class="small"><strong>Advisor:</strong> Dr. Asha Kisan Dond</span> <br>
-        <span class="small text-muted">CGPA (Comprehensive): 8.67 / 10.0</span>
+        <span class="small text-muted">CGPA (Comprehensive exam): 8.67 / 10</span>
       </td>
     </tr>
     
@@ -27,7 +27,7 @@ nav_order: 3
       <td>
         <strong>M.Sc. in Mathematics</strong> <br>
         Pondicherry University, Pondicherry, India <br>
-        <span class="small text-muted">CGPA: 8.25 / 10.0</span>
+        <span class="small text-muted">CGPA: 8.25 / 10</span>
       </td>
     </tr>
     
@@ -36,7 +36,7 @@ nav_order: 3
       <td>
         <strong>B.Sc. (Hons.) in Mathematics and Computing</strong> <br>
         Institute of Mathematics and Applications (IMA), Bhubaneswar, India <br>
-        <span class="small text-muted">CGPA: 8.14 / 10.0</span>
+        <span class="small text-muted">CGPA: 8.14 / 10</span>
       </td>
     </tr>
   </table>
@@ -49,7 +49,7 @@ nav_order: 3
     </tr>
     <tr>
       <th scope="row" class="text-muted font-weight-light">2019</th>
-      <td><strong>CSIR-UGC NET (JRF)</strong> — All India Rank: <strong>40</strong></td>
+      <td><strong>CSIR-UGC NET</strong> — All India Rank: <strong>40</strong></td>
     </tr>
     <tr>
       <th scope="row" class="text-muted font-weight-light">2015</th>
@@ -60,10 +60,9 @@ nav_order: 3
   <h3 class="mt-5" style="color: var(--global-theme-color);">Technical Skills</h3>
   <div class="row ml-1">
     <div class="col-sm-12">
-      <span class="badge badge-pill badge-light border">Python / FEniCSx (dolfinx)</span>
       <span class="badge badge-pill badge-light border">MATLAB</span>
+      <span class="badge badge-pill badge-light border">Python / FEniCS</span>
       <span class="badge badge-pill badge-light border">LaTeX</span>
-      <span class="badge badge-pill badge-light border">MPI (mpi4py)</span>
     </div>
   </div>
 
