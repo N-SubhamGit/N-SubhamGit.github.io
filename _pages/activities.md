@@ -7,28 +7,93 @@ nav: true
 nav_order: 3
 ---
 
-### Contributed Talks
-* **Latest Advances in Applied and Computational Mathematics (LACAM-25)**, IISER Thiruvananthapuram, India (Dec 08-11, 2025).
-* **Frontier Symposium Mathematics**, IISER Thiruvananthapuram, India (Jan 17-19, 2025).
-* **2nd International Conference on Recent Advances in Applied Mathematics (RAAM 2024)**, IIT BHU, Varanasi, India (July 03-05, 2024).
-* **10th International Conference on Computational Methods in Applied Mathematics (CMAM-10)**, Bonn, Germany (June 10-14, 2024).
-* **Latest Advances in Applied and Computational Mathematics (LACAM-24)**, IISER Thiruvananthapuram, India (Feb 21-24, 2024).
+<div class="news">
+  <h2 class="category">Invited & Contributed Talks</h2>
+  <hr>
+  <ul class="post-list">
+    <li>
+      <div class="row">
+        <div class="col-sm-2 abbr"><span class="badge badge-pill badge-primary">Dec 2025</span></div>
+        <div class="col-sm-10">
+          <div class="title">Latest Advances in Applied and Computational Mathematics (LACAM-25)</div>
+          <div class="author"><em>IISER Thiruvananthapuram, India</em></div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="row">
+        <div class="col-sm-2 abbr"><span class="badge badge-pill badge-primary">Jan 2025</span></div>
+        <div class="col-sm-10">
+          <div class="title">Frontier Symposium Mathematics</div>
+          <div class="author"><em>IISER Thiruvananthapuram, India</em></div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="row">
+        <div class="col-sm-2 abbr"><span class="badge badge-pill badge-info">June 2024</span></div>
+        <div class="col-sm-10">
+          <div class="title">10th International Conference on Computational Methods in Applied Mathematics (CMAM-10)</div>
+          <div class="author"><em>Bonn, Germany</em></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
 
-### Teaching & Academic Service
-* **Tutor**, NCM Workshop on Finite Element Analysis of Variational Problems, IIT Bombay (July 08-13, 2024).
+<div class="news">
+  <h2 class="category">Teaching & Academic Service</h2>
+  <hr>
+  <ul class="post-list">
+    <li>
+      <div class="row">
+        <div class="col-sm-2 abbr"><span class="badge badge-pill badge-success">July 2024</span></div>
+        <div class="col-sm-10">
+          <div class="title">Tutor: NCM Workshop on Finite Element Analysis of Variational Problems</div>
+          <div class="author"><em>IIT Bombay, India</em></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
 
-### Workshops & Symposiums
-* **Indo-French Workshop on Innovative Numerical Methods for Modern Engineering Problems**, IIT Roorkee (Jan 06-10, 2025).
-* **NCM Workshop on Finite Element Methods for PDEs**, IISER Thiruvananthapuram (Sep 11-16, 2023).
-* **Frontier Symposium in Mathematics 2023**, IISER Thiruvananthapuram (Feb 17-19, 2023).
-* **NCM Workshop on Numerical Methods for Partial Differential Equations**, IISER Thiruvananthapuram (Sep 19-24, 2022).
-* **Frontier Symposium in Mathematics 2022**, IISER Thiruvananthapuram (April 08-11, 2022).
-* **The 4th BRICS Mathematics Conference**, IISER Thiruvananthapuram (Dec 07-10, 2021).
+<div class="news">
+  <h2 class="category">Research Internships</h2>
+  <hr>
+  <ul class="post-list">
+    <li>
+      <div class="row">
+        <div class="col-sm-2 abbr"><span class="badge badge-pill badge-warning">2018</span></div>
+        <div class="col-sm-10">
+          <div class="title">Summer Internship in Nonlinear Analysis</div>
+          <div class="author">IIT Palakkad | Supervisor: <strong>Dr. Lakshmi Sankar K.</strong></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
 
-### Internships & Early Career Programs
-* **Summer Internship 2018**, IIT Palakkad (May 14 – June 19, 2018).
-  * **Topic:** Nonlinear Analysis
-  * **Mentor:** Dr. Lakshmi Sankar K.
-* **Learning Strategies for Postgraduates (S. Chandrasekhar Memorial)**, Central University of Tamil Nadu (Dec 10-22, 2017).
-* **Madhava Mathematics Competition Nurture Camp**, ISI Bangalore (June 05-09, 2017).
-* **Interactive Camp for Undergraduate Mathematics Students**, IMA Bhubaneswar (June 17-30, 2016).
+<div class="news">
+  <h2 class="category">Workshops & Symposiums</h2>
+  <hr>
+  <ul class="post-list">
+    <li>
+      <div class="row">
+        <div class="col-sm-2 abbr"><span class="badge badge-pill badge-secondary">2023</span></div>
+        <div class="col-sm-10">
+          <div class="title">NCM Workshop on Finite Element Methods for PDEs</div>
+          <div class="author"><em>IISER Thiruvananthapuram, India</em></div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="row">
+        <div class="col-sm-2 abbr"><span class="badge badge-pill badge-secondary">2021</span></div>
+        <div class="col-sm-10">
+          <div class="title">The 4th BRICS Mathematics Conference</div>
+          <div class="author"><em>IISER Thiruvananthapuram, India</em></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
