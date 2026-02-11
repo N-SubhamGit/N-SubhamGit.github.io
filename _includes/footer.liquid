@@ -1,30 +1,49 @@
+{% if site.footer_fixed %}
+
+<footer class="fixed-bottom" role="contentinfo">
+{% else %}
+<footer class="sticky-bottom mt-5" role="contentinfo">
+{% endif %}
+<div class="container">
+<hr>
+<div class="row">
+<div class="col-sm-12 text-right text-muted small">
+&copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.last_name }}.
+Powered by <a href="" target="_blank">Jekyll</a> with
+<a href="">al-folio</a> theme.
+Hosted by <a href="" target="_blank">GitHub Pages</a>.
+</div>
+</div>
+</div>
+</footer>
+
+{% comment %}
 {% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
+© Copyright {{ site.time | date: '%Y' }}
+{{ site.first_name }}
+{{ site.middle_name }}
+{{ site.last_name }}. {{ site.footer_text }}
+{% if site.impressum_path %}
+<a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+{% endif %}
+{% if site.last_updated %}
+Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+{% endif %}
 {% endcapture %}
 
 {% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
-      {{ footer_contents }}
-    </div>
-  </footer>
-{% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo">
-    {% if site.newsletter.enabled %}
-      {% include newsletter.liquid %}
-    {% endif %}
 
-    <div class="container">
-      {{ footer_contents }}
-    </div>
-  </footer>
+<footer class="fixed-bottom" role="contentinfo">
+<div class="container mt-0">
+{{ footer_contents }}
+</div>
+</footer>
+{% else %}
+<footer class="sticky-bottom mt-5" role="contentinfo">
+{% if site.newsletter.enabled %}
+{% include newsletter.liquid %}
 {% endif %}
+
+</footer>
+{% endif %}
+{% endcomment %}
