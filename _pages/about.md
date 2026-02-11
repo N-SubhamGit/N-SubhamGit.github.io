@@ -2,6 +2,8 @@
 layout: about
 title: About
 permalink: /
+nav: true
+nav_order: 1
 subtitle: <a href='#'>PhD in Mathematics</a>. IISER Thiruvananthapuram.
 
 profile:
