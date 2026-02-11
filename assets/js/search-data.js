@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Courses assisted as a teaching assistant at IISER Thiruvananthapuram.",
+          description: "Teaching Assistantship at IISER Thiruvananthapuram.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
