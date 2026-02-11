@@ -1,67 +1,70 @@
 ---
 layout: page
-title: Teaching
-permalink: /teaching/
-description: Teaching Assistantship at IISER Thiruvananthapuram.
+title: Education
+permalink: /education/
+description: Academic background, qualifying examinations, and technical expertise.
 nav: true
-nav_order: 5
+nav_order: 3
 ---
 
-<div class="post">
+<div class="news">
 
-  <header class="post-header">
-    <h3 class="post-title" style="color: var(--global-theme-color);">IISER Thiruvananthapuram</h3>
-    <p class="desc">Graduate Teaching Assistant for Undergraduate Courses</p>
-  </header>
+  <h3 class="mt-4" style="color: var(--global-theme-color);">Academic Background</h3>
+  <table class="table table-sm table-borderless">
+    <tr>
+      <th scope="row" style="width: 22%" class="text-muted font-weight-light">2020 — 2026</th>
+      <td>
+        <strong>Ph.D. in Mathematics</strong> (Thesis Submitted) <br>
+        Indian Institute of Science Education and Research (IISER) Thiruvananthapuram <br>
+        <span class="small"><strong>Thesis:</strong> Convergence of Adaptive FEM for Optimal Control Problems Governed by Biharmonic Equations</span> <br>
+        <span class="small"><strong>Advisor:</strong> Dr. Asha Kisan Dond</span> <br>
+        <span class="small text-muted">CGPA (Comprehensive): 8.67 / 10.0</span>
+      </td>
+    </tr>
+    
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">2017 — 2019</th>
+      <td>
+        <strong>M.Sc. in Mathematics</strong> <br>
+        Pondicherry University, Pondicherry, India <br>
+        <span class="small text-muted">CGPA: 8.25 / 10.0</span>
+      </td>
+    </tr>
+    
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">2014 — 2017</th>
+      <td>
+        <strong>B.Sc. (Hons.) in Mathematics and Computing</strong> <br>
+        Institute of Mathematics and Applications (IMA), Bhubaneswar, India <br>
+        <span class="small text-muted">CGPA: 8.14 / 10.0</span>
+      </td>
+    </tr>
+  </table>
 
-  <article>
-    <div class="cv">
-      <div class="card mt-3 p-3 border-0">
-        <div class="list-group list-group-flush">
-          
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">General Topology</h6>
-            <p class="small text-muted mb-0">Jan – May 2025</p>
-          </div>
+  <h3 class="mt-5" style="color: var(--global-theme-color);">Awards & Honors</h3>
+  <table class="table table-sm table-borderless">
+    <tr>
+      <th scope="row" style="width: 22%" class="text-muted font-weight-light">2020</th>
+      <td><strong>GATE (Mathematics)</strong> — All India Rank: <strong>79</strong></td>
+    </tr>
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">2019</th>
+      <td><strong>CSIR-UGC NET (JRF)</strong> — All India Rank: <strong>40</strong></td>
+    </tr>
+    <tr>
+      <th scope="row" class="text-muted font-weight-light">2015</th>
+      <td><strong>Senior Mathematics Olympiad, Odisha</strong> — Rank: <strong>4</strong></td>
+    </tr>
+  </table>
 
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">Machine Learning</h6>
-            <p class="small text-muted mb-0">Aug – Dec 2025</p>
-          </div>
-
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">IDC: Ordinary Differential Equations</h6>
-            <p class="small text-muted mb-0">Jan – May 2024</p>
-          </div>
-
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">Multivariable Calculus</h6>
-            <p class="small text-muted mb-0">Aug – Dec 2023</p>
-          </div>
-
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">IDC: Ordinary Differential Equations</h6>
-            <p class="small text-muted mb-0">Apr – Aug 2023</p>
-          </div>
-
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">Multivariable Calculus</h6>
-            <p class="small text-muted mb-0">Aug – Dec 2022</p>
-          </div>
-
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">IDC: Ordinary Differential Equations</h6>
-            <p class="small text-muted mb-0">May – Aug 2022</p>
-          </div>
-
-          <div class="list-group-item" style="border-left: 2px solid var(--global-theme-color); margin-left: 10px;">
-            <h6 class="font-weight-bold mb-0">Introduction to Probability</h6>
-            <p class="small text-muted mb-0">Jan – May 2020</p>
-          </div>
-
-        </div>
-      </div>
+  <h3 class="mt-5" style="color: var(--global-theme-color);">Technical Skills</h3>
+  <div class="row ml-1">
+    <div class="col-sm-12">
+      <span class="badge badge-pill badge-light border">Python / FEniCSx (dolfinx)</span>
+      <span class="badge badge-pill badge-light border">MATLAB</span>
+      <span class="badge badge-pill badge-light border">LaTeX</span>
+      <span class="badge badge-pill badge-light border">MPI (mpi4py)</span>
     </div>
-  </article>
+  </div>
 
 </div>
