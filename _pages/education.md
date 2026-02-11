@@ -49,7 +49,7 @@ nav_order: 3
     </tr>
     <tr>
       <th scope="row" class="text-muted font-weight-light">2019</th>
-      <td><strong>CSIR-UGC NET (JRF)</strong> — All India Rank: <strong>40</strong></td>
+      <td><strong>CSIR-UGC NET</strong> — All India Rank: <strong>40</strong></td>
     </tr>
     <tr>
       <th scope="row" class="text-muted font-weight-light">2015</th>
