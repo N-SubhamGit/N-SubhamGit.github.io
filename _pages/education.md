@@ -18,7 +18,7 @@ nav_order: 3
         Indian Institute of Science Education and Research (IISER) Thiruvananthapuram <br>
         <span class="small"><strong>Thesis:</strong> Convergence of Adaptive FEM for Optimal Control Problems Governed by Biharmonic Equations</span> <br>
         <span class="small"><strong>Advisor:</strong> Dr. Asha Kisan Dond</span> <br>
-        <span class="small text-muted">CGPA (Comprehensive): 8.67 / 10.0</span>
+        <span class="small text-muted">CGPA (Comprehensive exam): 8.67 / 10.0</span>
       </td>
     </tr>
     
