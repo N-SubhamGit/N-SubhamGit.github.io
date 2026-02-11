@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-activities",
-          title: "activities",
+          title: "Activities",
           description: "Conferences, workshops, and research engagements.",
           section: "Navigation",
           handler: () => {
