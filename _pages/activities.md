@@ -2,7 +2,7 @@
 layout: page
 title: Activities
 permalink: /activities/
-description: Selected conferences, workshops, and research engagements.
+description: Conferences, workshops, and research engagements.
 nav: true
 nav_order: 3
 ---
@@ -27,6 +27,8 @@ nav_order: 3
 
 ### Internships & Early Career Programs
 * **Summer Internship 2018**, IIT Palakkad (May 14 – June 19, 2018).
+  * **Topic:** Nonlinear Analysis
+  * **Mentor:** Dr. Lakshmi Sankar K.
 * **Learning Strategies for Postgraduates (S. Chandrasekhar Memorial)**, Central University of Tamil Nadu (Dec 10-22, 2017).
 * **Madhava Mathematics Competition Nurture Camp**, ISI Bangalore (June 05-09, 2017).
 * **Interactive Camp for Undergraduate Mathematics Students**, IMA Bhubaneswar (June 17-30, 2016).
