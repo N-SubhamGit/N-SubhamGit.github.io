@@ -60,10 +60,9 @@ nav_order: 3
   <h3 class="mt-5" style="color: var(--global-theme-color);">Technical Skills</h3>
   <div class="row ml-1">
     <div class="col-sm-12">
-      <span class="badge badge-pill badge-light border">Python / FEniCSx (dolfinx)</span>
       <span class="badge badge-pill badge-light border">MATLAB</span>
+       <span class="badge badge-pill badge-light border">Python / FEniCS</span>
       <span class="badge badge-pill badge-light border">LaTeX</span>
-      <span class="badge badge-pill badge-light border">MPI (mpi4py)</span>
     </div>
   </div>
 
