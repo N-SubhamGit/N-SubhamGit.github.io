@@ -18,7 +18,6 @@ nav_order: 3
         Indian Institute of Science Education and Research (IISER) Thiruvananthapuram <br>
         <span class="small"><strong>Thesis:</strong> Convergence of Adaptive FEM for Optimal Control Problems Governed by Biharmonic Equations</span> <br>
         <span class="small"><strong>Advisor:</strong> Dr. Asha Kisan Dond</span> <br>
-        <span class="small text-muted">CGPA (Comprehensive exam): 8.67 / 10</span>
       </td>
     </tr>
     
@@ -27,7 +26,6 @@ nav_order: 3
       <td>
         <strong>M.Sc. in Mathematics</strong> <br>
         Pondicherry University, Pondicherry, India <br>
-        <span class="small text-muted">CGPA: 8.25 / 10</span>
       </td>
     </tr>
     
@@ -36,7 +34,6 @@ nav_order: 3
       <td>
         <strong>B.Sc. (Hons.) in Mathematics and Computing</strong> <br>
         Institute of Mathematics and Applications (IMA), Bhubaneswar, India <br>
-        <span class="small text-muted">CGPA: 8.14 / 10</span>
       </td>
     </tr>
   </table>
@@ -67,3 +64,9 @@ nav_order: 3
   </div>
 
 </div>
+
+
+<div style="margin-bottom: 80px;"></div>
+
+
+
