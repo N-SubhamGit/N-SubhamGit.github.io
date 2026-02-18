@@ -476,7 +476,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/Subham_Nayak_CV.pdf", "_blank");
+          window.open("/assets/pdf/CV_SubhamNayak.pdf", "_blank");
         },
       },{
         id: 'social-email',
