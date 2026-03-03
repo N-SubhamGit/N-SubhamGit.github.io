@@ -17,8 +17,6 @@ text-transform: capitalize;
 
 <div class="news">
 
-<p class="text-muted mt-3">Graduate Teaching Assistant for Undergraduate Courses at IISER Thiruvananthapuram</p>
-
 <table class="table table-sm table-borderless mt-4">
 <tr>
 <th scope="row" style="width: 25%" class="text-muted font-weight-light">Jan – May 2025</th>
