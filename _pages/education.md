@@ -14,7 +14,7 @@ nav_order: 3
     <tr>
       <th scope="row" style="width: 22%" class="text-muted font-weight-light">2020 — 2026</th>
       <td>
-        <strong>Ph.D. in Mathematics</strong> (Thesis Submitted) <br>
+        <strong>Ph.D. in Mathematics</strong> <br>
         Indian Institute of Science Education and Research (IISER) Thiruvananthapuram <br>
         <span class="small"><strong>Thesis:</strong> Convergence of Adaptive FEM for Optimal Control Problems Governed by Biharmonic Equations</span> <br>
         <span class="small"><strong>Advisor:</strong> Dr. Asha Kisan Dond</span> <br>
