@@ -22,34 +22,38 @@ nav_order: 2
 
 </div>
 
-<!-- Custom CSS to make numbers visible and reduce the massive left margin gap -->
+<!-- Custom CSS to display the year cleanly on the left and fix margins -->
 <style>
-  /* 1. Make the plain text numbers clearly visible against the dark background */
+  /* 1. Style the year badge text on the left */
   .publications abbr.badge {
     background-color: transparent !important;
-    color: #f0f0f0 !important; /* Force a clear white/light gray color */
+    color: #f0f0f0 !important; /* Clearly visible light text */
     border: none !important;
     padding: 0 !important;
-    font-size: 1.15rem !important;
+    font-size: 1.1rem !important;
     font-weight: 600 !important;
     box-shadow: none !important;
-    text-align: right;
+    text-align: left;
     display: inline-block;
-    width: 100%;
   }
 
-  /* 2. Drastically shrink the width allocation for the left column (numbers/abbr column) */
+  /* 2. Set an optimal width for the left year column so it doesn't clip */
   .publications .bibliography .row .col-sm-2 {
-    max-width: 5% !important;
-    flex: 0 0 5% !important;
-    padding-right: 0px !important;
-    margin-right: 10px !important;
+    max-width: 12% !important;
+    flex: 0 0 12% !important;
+    padding-right: 10px !important;
   }
 
-  /* 3. Expand the right column (the paper text) to fill up the reclaimed space */
+  /* 3. Expand the title text section to comfortably use the rest of the row */
   .publications .bibliography .row .col-sm-8 {
-    max-width: 90% !important;
-    flex: 0 0 90% !important;
-    padding-left: 5px !important;
+    max-width: 88% !important;
+    flex: 0 0 88% !important;
+    padding-left: 0px !important;
+  }
+  
+  /* 4. Optional: Hide the default large faint year on the right if it feels redundant */
+  .publications .periodical {
+    /* uncomment the line below if you want to remove the faint year on the far right */
+    /* display: none !important; */
   }
 </style>
