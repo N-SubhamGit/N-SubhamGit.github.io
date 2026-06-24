@@ -7,6 +7,9 @@ nav: true
 nav_order: 2
 ---
 
+<!-- _pages/publications.md -->
+
+<!-- Bibsearch Feature -->
 {% include bib_search.liquid %}
 
 <div class="publications">
@@ -18,3 +21,16 @@ nav_order: 2
   {% bibliography --query @article[category=preprint] %}
 
 </div>
+
+<!-- Custom style to turn the numbering badges into plain text -->
+<style>
+  .publications abbr.badge {
+    background-color: transparent !important;
+    color: var(--global-text-color) !important;
+    border: none !important;
+    padding: 0 !important;
+    font-size: 1.1rem !important;
+    font-weight: 500;
+    box-shadow: none !important;
+  }
+</style>
