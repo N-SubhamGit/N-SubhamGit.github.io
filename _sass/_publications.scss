@@ -4,24 +4,25 @@
 
 @use "variables" as v;
 
-// Left-Aligned Timeline layout grid spacing rule
+// Single Column Flow - Overriding default template layout grids
 .publications .bibliography .row {
-  display: flex;
-  align-items: flex-start;
+  display: block !important; // Breaks the side-by-side flex grid
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 2rem;
 
-  // Left Column: Gives the Year/Status anchor clean layout space
+  // 1. Completely hide the left badge/abbr column block
   .col-sm-2 {
-    max-width: 15% !important;
-    flex: 0 0 15% !important;
-    text-align: left !important;
-    padding-right: 15px !important;
+    display: none !important;
   }
   
-  // Right Column: Expands the core text space tightly right next to it
+  // 2. Expand the paper info to full width with a uniform left indentation
   .col-sm-8 {
-    max-width: 85% !important;
-    flex: 0 0 85% !important;
-    padding-left: 0px !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    padding-left: 1.5rem !important; // Adjust this to control overall left margin spacing
+    padding-right: 0px !important;
   }
 }
 
@@ -37,7 +38,8 @@
   }
 
   h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem; // Keeps section headings aligned with the papers
 
     span {
       font-size: 1.5rem;
@@ -58,47 +60,23 @@
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
 
       .preview {
         display: inline-block;
       }
 
-      .abbr {
-        margin-bottom: 0.5rem;
-
-        abbr {
-          display: inline-block;
-          background-color: transparent !important; // Removes the colored background box block
-          color: var(--global-text-color) !important; // Matches high-contrast light text on your dark theme
-          border: none !important; // Strips default borders
-          padding: 0 !important;
-          font-size: 1.15rem !important;
-          font-weight: 600 !important;
-          box-shadow: none !important;
-          text-align: left;
-          margin-bottom: 0.5rem;
-
-          a {
-            color: var(--global-text-color);
-
-            &:hover {
-              text-decoration: none;
-            }
-          }
-        }
-
-        .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
-        }
-      }
-
       .title {
         font-weight: bolder;
+        font-size: 1.1rem;
+        display: block;
+        margin-bottom: 0.25rem;
       }
 
       .author {
+        display: block;
+        margin-bottom: 0.25rem;
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -125,7 +103,18 @@
         }
       }
 
+      // Shifting the periodical info block (Journal details and year) smoothly below the authors
+      .periodical {
+        display: block;
+        font-style: italic;
+        color: var(--global-text-color-light);
+        margin-bottom: 0.5rem;
+      }
+
       .links {
+        margin-top: 0.5rem;
+        display: block;
+
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
