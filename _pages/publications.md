@@ -7,18 +7,72 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
 {% include bib_search.liquid %}
 
 <div class="publications">
 
-  <h2 class="category">Published Journal Articles</h2>
   {% bibliography --query @article[category=published] %}
 
-  <h2 class="category" style="margin-top: 2.5rem;">Preprints & Under Review</h2>
+  <h2 class="category" style="margin-top: 3.5rem;">Preprints & Under Review</h2>
   {% bibliography --query @article[category=preprint] %}
 
 </div>
 
+<style>
+  /* 1. Style the category section headers to be clean and left-aligned */
+  .publications h2.category {
+    display: block !important;
+    font-size: 1.5rem !important;
+    font-weight: 600;
+    color: var(--global-theme-color) !important;
+    margin-bottom: 1.5rem !important;
+    padding-left: 1.5rem !important; /* Perfect baseline alignment */
+  }
+
+  /* 2. Strip right-float properties from the large year block and align left */
+  .publications ol.bibliography h2.year {
+    display: block !important;
+    text-align: left !important;
+    float: none !important;
+    clear: both !important;
+    position: relative !important;
+    right: auto !important;
+    left: 0 !important;
+    font-size: 2.2rem !important; 
+    font-weight: 700 !important;
+    color: var(--global-text-color-light) !important; 
+    opacity: 0.25 !important; 
+    margin-top: 1rem !important;
+    margin-bottom: 0.2rem !important;
+    border-top: none !important;
+    border-bottom: 1px solid var(--global-divider-color) !important;
+    padding-bottom: 0.1rem !important;
+    padding-left: 1.5rem !important;
+  }
+
+  /* 3. Drop the grid structure and pull rows to full width */
+  .publications .bibliography .row {
+    display: block !important; 
+    width: 100%;
+    margin: 0 0 1.5rem 0 !important;
+  }
+
+  /* 4. Hide the leftover empty abbreviation column grid spacing */
+  .publications .bibliography .row .col-sm-2 {
+    display: none !important;
+  }
+  
+  /* 5. Align paper text just slightly to the right of the year margin line */
+  .publications .bibliography .row .col-sm-8 {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    padding-left: 1.5rem !important; /* Matches year line baseline cleanly */
+    padding-right: 0px !important;
+    margin-top: -0.25rem !important; /* Pulls vertical empty space gap upward */
+  }
+
+  /* 6. Hide the individual entry abbreviation badges completely */
+  .publications .bibliography .abbr {
+    display: none !important;
+  }
+</style>
