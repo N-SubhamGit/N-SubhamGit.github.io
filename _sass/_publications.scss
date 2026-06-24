@@ -4,25 +4,49 @@
 
 @use "variables" as v;
 
-// Single Column Flow - Overriding default template layout grids
-.publications .bibliography .row {
-  display: block !important; // Breaks the side-by-side flex grid
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 2rem;
-
-  // 1. Completely hide the left badge/abbr column block
-  .col-sm-2 {
-    display: none !important;
-  }
+// Single Column Flow Layout Adjustments
+.publications {
   
-  // 2. Expand the paper info to full width with a uniform left indentation
-  .col-sm-8 {
-    max-width: 100% !important;
-    flex: 0 0 100% !important;
-    padding-left: 1.5rem !important; // Adjust this to control overall left margin spacing
-    padding-right: 0px !important;
+  // 1. Un-float the giant year watermark and snap it cleanly to the left edge
+  ol.bibliography {
+    position: relative;
+    
+    span.year {
+      display: block !important;
+      text-align: left !important;
+      float: none !important;
+      position: relative !important;
+      right: auto !important;
+      left: 0 !important;
+      font-size: 2.2rem !important; // Big stylistic font size
+      font-weight: 700;
+      color: var(--global-text-color-light) !important; // Clean, muted gray accent
+      opacity: 0.25; // Subtle watermark aesthetic
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      padding-left: 1.5rem; // Perfectly matches the indentation structure
+    }
+  }
+
+  .bibliography .row {
+    display: block !important; 
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2rem;
+
+    // 2. Hide the empty left badge/abbr column block completely
+    .col-sm-2 {
+      display: none !important;
+    }
+    
+    // 3. Indent the paper details neatly under the main headers and years
+    .col-sm-8 {
+      max-width: 100% !important;
+      flex: 0 0 100% !important;
+      padding-left: 2.5rem !important; // Generates a clean margin layout for your paper details
+      padding-right: 0px !important;
+    }
   }
 }
 
@@ -39,7 +63,7 @@
 
   h2 {
     margin-bottom: 1.5rem;
-    padding-left: 1.5rem; // Keeps section headings aligned with the papers
+    padding-left: 1.5rem; // Keeps main section headings beautifully aligned
 
     span {
       font-size: 1.5rem;
@@ -103,7 +127,6 @@
         }
       }
 
-      // Shifting the periodical info block (Journal details and year) smoothly below the authors
       .periodical {
         display: block;
         font-style: italic;
