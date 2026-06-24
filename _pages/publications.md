@@ -28,7 +28,7 @@ nav_order: 2
     text-transform: none !important;
     letter-spacing: normal !important;
     margin-bottom: 1.5rem !important;
-    padding-left: 1.5rem !important; /* Visual reference line */
+    padding-left: 1.5rem !important; 
   }
 
   /* 2. Strip right-float properties from the large year block and align left */
@@ -49,7 +49,7 @@ nav_order: 2
     border-top: none !important;
     border-bottom: 1px solid var(--global-divider-color) !important;
     padding-bottom: 0.1rem !important;
-    padding-left: 1.5rem !important; /* Aligns perfectly with category titles */
+    padding-left: 1.5rem !important; 
   }
 
   /* 3. Drop the grid structure and pull rows to full width */
@@ -64,11 +64,11 @@ nav_order: 2
     display: none !important;
   }
   
-  /* 5. SHIFTED HORIZONTALLY: Pushes all paper text content cleanly to the right */
+  /* 5. DOUBLED HORIZONTAL SHIFT: Deepens the indentation of paper entries */
   .publications .bibliography .row .col-sm-8 {
     max-width: 100% !important;
     flex: 0 0 100% !important;
-    padding-left: 2.5rem !important; /* Increased from 1.5rem to cleanly indent entries */
+    padding-left: 3.5rem !important; /* Increased to 3.5rem for a stronger step-in look */
     padding-right: 0px !important;
     margin-top: -0.25rem !important; 
   }
