@@ -4,6 +4,19 @@
 
 @use "variables" as v;
 
+// Layout alignment fix to tightly pull margins to the left
+.publications .bibliography .row {
+  .col-sm-2 {
+    max-width: 12% !important;
+    flex: 0 0 12% !important;
+  }
+  .col-sm-8 {
+    max-width: 88% !important;
+    flex: 0 0 88% !important;
+    padding-left: 0px !important;
+  }
+}
+
 .publications {
   margin-top: 2rem;
 
@@ -48,12 +61,18 @@
 
         abbr {
           display: inline-block;
-          background-color: var(--global-theme-color);
+          background-color: transparent !important; // Strip out the background box color
+          color: var(--global-text-color) !important; // High contrast text color dynamically adjusted to theme
+          border: none !important; // Clean text lines
+          padding: 0 !important;
+          font-size: 1.15rem !important;
+          font-weight: 600 !important;
+          box-shadow: none !important;
+          text-align: left;
           margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
 
           a {
-            color: white;
+            color: var(--global-text-color);
 
             &:hover {
               text-decoration: none;
