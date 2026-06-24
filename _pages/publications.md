@@ -19,12 +19,14 @@ nav_order: 2
 </div>
 
 <style>
-  /* 1. Style the category section headers to be clean and left-aligned */
+  /* 1. Style the category section headers to match tab titles exactly */
   .publications h2.category {
     display: block !important;
-    font-size: 1.5rem !important;
-    font-weight: 600;
-    color: var(--global-theme-color) !important;
+    font-size: 1.25rem !important; /* Slightly more compact to match nav size */
+    font-weight: 500 !important;   /* Matches clean, standard tab font weight */
+    color: var(--global-text-color) !important; /* Removes theme color accent */
+    text-transform: none !important;
+    letter-spacing: normal !important;
     margin-bottom: 1.5rem !important;
     padding-left: 1.5rem !important; /* Perfect baseline alignment */
   }
