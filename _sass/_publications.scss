@@ -12,61 +12,52 @@
     padding: 0;
     margin-top: 0;
     
-    // TARGETING THE YEAR ELEMENT: Strips right-alignment and forces it flush left
+    // TARGETING THE YEAR: Inline-floating it left so the paper rolls up next to it
     li {
       position: relative;
+      clear: both;
+      margin-bottom: 2rem !important;
 
       &::before {
-        /* Overrides template's default right-aligned floating year settings */
         content: attr(data-year) !important;
-        position: relative !important;
-        display: block !important;
+        float: left !important; // Forces the text to wrap around it horizontally
+        display: inline-block !important;
         text-align: left !important;
-        float: none !important;
-        right: auto !important;
-        left: 0 !important;
         
-        /* Styling the text nicely */
-        font-size: 2.2rem !important; // Large stylistic size
+        /* Styling the year text */
+        font-size: 1.5rem !important; // Compact, clean size to sit beside the paper details
         font-weight: 700 !important;
-        color: var(--global-text-color-light) !important; // Subtle gray
-        opacity: 0.25 !important; // Watermark aesthetic
-        margin-top: 2rem !important;
-        margin-bottom: 0.8rem !important;
-        padding-left: 1.5rem !important; // Keeps headers aligned beautifully
+        color: var(--global-text-color-light) !important; 
+        opacity: 0.35; 
+        width: 70px !important; // Fixes the horizontal indentation width for the year
+        margin-top: 2px !important;
+        padding-left: 1.5rem !important; // Keeps alignment with your section headings
       }
     }
     
-    // Hides any secondary floating year styles that might conflict
+    // Cleans up theme secondary year tags if they show up
     .year {
-      display: block !important;
-      text-align: left !important;
-      float: none !important;
-      position: relative !important;
-      right: auto !important;
-      left: 0 !important;
-      padding-left: 1.5rem !important;
+      display: none !important;
     }
   }
 
-  // Fixing the Bootstrap Row Layout to follow a clean single column margin
+  // Fixing the Row container to align seamlessly right next to the floated year
   .bibliography .row {
-    display: block !important; 
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 2rem;
+    display: inline-block !important; // Allows it to sit horizontally adjacent to the floated year
+    width: calc(100% - 80px) !important; // Reserves precise space for the year width
+    margin: 0 !important;
+    vertical-align: top !important;
 
     // 1. Hide the empty left badge column wrapper completely
     .col-sm-2 {
       display: none !important;
     }
     
-    // 2. Indent the paper details neatly under your main headers and years
+    // 2. Clear out margins so the paper content starts immediately
     .col-sm-8 {
       max-width: 100% !important;
       flex: 0 0 100% !important;
-      padding-left: 2.5rem !important; // Uniform left margin indentation for entries
+      padding-left: 10px !important; // Minor horizontal gap between Year and Paper Title
       padding-right: 0px !important;
     }
   }
@@ -97,19 +88,17 @@
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    text-align: left !important; // Changed to left alignment
+    text-align: left !important;
     padding-left: 1.5rem !important;
   }
 
   ol.bibliography {
     li {
-      margin-bottom: 1.5rem;
-
       .preview {
         display: inline-block;
       }
 
-      // Hide abbreviation tags completely everywhere
+      // Hide abbreviation badges completely everywhere
       .abbr {
         display: none !important;
       }
