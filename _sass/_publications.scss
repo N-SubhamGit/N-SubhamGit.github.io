@@ -7,10 +7,10 @@
 // Single Column Flow Layout Adjustments
 .publications {
   
-  // 1. Un-float the giant year watermark and snap it cleanly to the left edge
   ol.bibliography {
     position: relative;
     
+    // Fallback rule for year spans if present
     span.year {
       display: block !important;
       text-align: left !important;
@@ -18,13 +18,13 @@
       position: relative !important;
       right: auto !important;
       left: 0 !important;
-      font-size: 2.2rem !important; // Big stylistic font size
+      font-size: 2.2rem !important;
       font-weight: 700;
-      color: var(--global-text-color-light) !important; // Clean, muted gray accent
-      opacity: 0.25; // Subtle watermark aesthetic
+      color: var(--global-text-color-light) !important;
+      opacity: 0.25;
       margin-top: 1.5rem;
       margin-bottom: 0.5rem;
-      padding-left: 1.5rem; // Perfectly matches the indentation structure
+      padding-left: 1.5rem;
     }
   }
 
@@ -35,16 +35,16 @@
     margin-right: 0;
     margin-bottom: 2rem;
 
-    // 2. Hide the empty left badge/abbr column block completely
+    // Hide the empty left badge/abbr column block completely
     .col-sm-2 {
       display: none !important;
     }
     
-    // 3. Indent the paper details neatly under the main headers and years
+    // Indent the paper details neatly under headers and years
     .col-sm-8 {
       max-width: 100% !important;
       flex: 0 0 100% !important;
-      padding-left: 2.5rem !important; // Generates a clean margin layout for your paper details
+      padding-left: 2.5rem !important; // Clean indent for publication entries
       padding-right: 0px !important;
     }
   }
@@ -63,19 +63,25 @@
 
   h2 {
     margin-bottom: 1.5rem;
-    padding-left: 1.5rem; // Keeps main section headings beautifully aligned
+    padding-left: 1.5rem; // Keeps main section headings aligned
 
     span {
       font-size: 1.5rem;
     }
   }
 
+  // FIXED: Changed text-align from right to left, and matched formatting
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-text-color-light) !important;
+    opacity: 0.25; // Gives it that elegant, muted look
+    font-size: 2.2rem !important;
+    font-weight: 700;
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    text-align: right;
+    margin-bottom: 1rem;
+    text-align: left !important; /* Forces the automatic year labels to the left */
+    padding-left: 1.5rem !important; /* Aligns perfectly with the grid path */
   }
 
   ol.bibliography {
