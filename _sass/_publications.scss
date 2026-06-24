@@ -7,12 +7,17 @@
 // Single Column Flow Layout Adjustments
 .publications {
 
+  // REMOVING SECTION TITLES: Hides the text category headers completely
+  h2.category {
+    display: none !important;
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
     margin-top: 0;
     
-    // Keeps the large background year exactly where it was rendering cleanly
+    // Formatting the Left-Aligned Year Header Accent
     h2.year {
       display: block !important;
       text-align: left !important;
@@ -25,12 +30,12 @@
       font-weight: 700 !important;
       color: var(--global-text-color-light) !important; 
       opacity: 0.25 !important; 
-      margin-top: 1.5rem !important;
-      margin-bottom: 0.5rem !important; // Reduced to pull paper closer vertically
+      margin-top: 1rem !important;   // Reduced to minimize top gap
+      margin-bottom: 0.2rem !important; // Drastically reduced to bring papers vertically up close
       border-top: none !important;
       border-bottom: 1px solid var(--global-divider-color) !important;
-      padding-bottom: 0.25rem !important;
-      padding-left: 1.5rem !important; 
+      padding-bottom: 0.1rem !important;
+      padding-left: 1rem !important; // Sets the year baseline margin
     }
   }
 
@@ -39,26 +44,27 @@
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 1.5rem; // Tightened vertical space between separate papers
+    margin-bottom: 1.5rem; 
 
-    // Hide the empty left badge column wrapper completely
+    // Hide the empty template left column grid component
     .col-sm-2 {
       display: none !important;
     }
     
-    // SHIFTING PAPER DETAILS: Moved tightly to the left horizontally & vertically
+    // HORIZONTAL & VERTICAL ALIGNMENT FIX:
+    // Moves the paper data up vertically and slightly indents it horizontally from the year margin
     .col-sm-8 {
       max-width: 100% !important;
       flex: 0 0 100% !important;
-      padding-left: 1.5rem !important; // Aligns perfectly horizontally with the year header
+      padding-left: 1.5rem !important; // Placed at 1.5rem (just slightly right of the year's 1rem margin)
       padding-right: 0px !important;
-      margin-top: 0px !important; // Removes any top vertical gaps
+      margin-top: -0.25rem !important; // Pulls the text block sharply upward closer to the year line
     }
   }
 }
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 1rem; // Tightened page top padding since headers are removed
 
   h1 {
     color: var(--global-theme-color);
@@ -92,7 +98,7 @@
         display: inline-block;
       }
 
-      // Hide abbreviation badges completely everywhere
+      // Hide abbreviation badges globally
       .abbr {
         display: none !important;
       }
