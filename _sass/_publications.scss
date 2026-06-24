@@ -6,35 +6,50 @@
 
 // Single Column Flow Layout Adjustments
 .publications {
-  
-  ol.bibliography {
-    position: relative;
-    display: block;
-    width: 100%;
-    padding: 0;
 
-    // TARGETING THE YEAR HEADING: Completely forces it to the left side
-    h2.year {
+  ol.bibliography {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    
+    // TARGETING THE YEAR ELEMENT: Strips right-alignment and forces it flush left
+    li {
+      position: relative;
+
+      &::before {
+        /* Overrides template's default right-aligned floating year settings */
+        content: attr(data-year) !important;
+        position: relative !important;
+        display: block !important;
+        text-align: left !important;
+        float: none !important;
+        right: auto !important;
+        left: 0 !important;
+        
+        /* Styling the text nicely */
+        font-size: 2.2rem !important; // Large stylistic size
+        font-weight: 700 !important;
+        color: var(--global-text-color-light) !important; // Subtle gray
+        opacity: 0.25 !important; // Watermark aesthetic
+        margin-top: 2rem !important;
+        margin-bottom: 0.8rem !important;
+        padding-left: 1.5rem !important; // Keeps headers aligned beautifully
+      }
+    }
+    
+    // Hides any secondary floating year styles that might conflict
+    .year {
       display: block !important;
       text-align: left !important;
       float: none !important;
-      clear: both !important;
       position: relative !important;
       right: auto !important;
       left: 0 !important;
-      font-size: 2.2rem !important; // Large stylistic font size
-      font-weight: 700 !important;
-      color: var(--global-text-color-light) !important; // Clean, subtle gray accent
-      opacity: 0.25 !important; // Watermark aesthetic
-      margin-top: 2rem !important;
-      margin-bottom: 1rem !important;
-      border-top: none !important;
-      border-bottom: 1px solid var(--global-divider-color) !important;
-      padding-bottom: 0.25rem !important;
-      padding-left: 1.5rem !important; // Matches your main heading margins
+      padding-left: 1.5rem !important;
     }
   }
 
+  // Fixing the Bootstrap Row Layout to follow a clean single column margin
   .bibliography .row {
     display: block !important; 
     width: 100%;
@@ -42,12 +57,12 @@
     margin-right: 0;
     margin-bottom: 2rem;
 
-    // 1. Hide the empty left badge column block completely
+    // 1. Hide the empty left badge column wrapper completely
     .col-sm-2 {
       display: none !important;
     }
     
-    // 2. Indent the core paper details nicely underneath the left-aligned years
+    // 2. Indent the paper details neatly under your main headers and years
     .col-sm-8 {
       max-width: 100% !important;
       flex: 0 0 100% !important;
@@ -70,7 +85,7 @@
 
   h2 {
     margin-bottom: 1.5rem;
-    padding-left: 1.5rem; // Keeps main section headings aligned cleanly
+    padding-left: 1.5rem; // Main section heading margins
 
     span {
       font-size: 1.5rem;
@@ -82,14 +97,11 @@
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    text-align: right;
+    text-align: left !important; // Changed to left alignment
+    padding-left: 1.5rem !important;
   }
 
   ol.bibliography {
-    list-style: none;
-    padding: 0;
-    margin-top: 0;
-
     li {
       margin-bottom: 1.5rem;
 
@@ -97,7 +109,7 @@
         display: inline-block;
       }
 
-      // Hide abbreviation tags everywhere inside entries
+      // Hide abbreviation tags completely everywhere
       .abbr {
         display: none !important;
       }
